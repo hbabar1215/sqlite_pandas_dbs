@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 
 
-DB_PATH = "clinic_simple.db"
+DB_PATH = "health-sqlite-lite/clinic_simple.db"
 CSV_PATH = "health-sqlite-lite/data/patients.csv"
 
 

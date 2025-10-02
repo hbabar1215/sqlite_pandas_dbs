@@ -20,7 +20,7 @@ The purpose of this assignment is to learn how to load patient data from a CSV f
 ### Query B: Top primary diagnoses by count
 - There were 16 common primary icd10 codes with I10 *(Essential Hypertension)* being the most common.
 
-<img src="health-sqlite-lite/images/query_b.png" alt="Query B" width="700" height="300">
+<img src="health-sqlite-lite/images/query_b.png" alt="Query B" width="300">
 
 
 ### Query C: 

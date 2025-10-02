@@ -8,13 +8,13 @@ CSV_PATH = "health-sqlite-lite/data/patients.csv"
 
 def main():
 
+    # Create the database engine.
+    engine = create_engine(f"sqlite:///{DB_PATH}")
+
     # Read the CSV file.
     df = pd.read_csv(CSV_PATH, dtype=str)  
 
     df.to_sql("patients", con=engine, if_exists="append", index=False)
-
-    # Create the database engine.
-    engine = create_engine(f"sqlite:///{DB_PATH}")
 
     ## Verify the number of rows loaded.
     sql_count = text("SELECT COUNT(*) FROM patients")
@@ -22,7 +22,7 @@ def main():
         result = conn.execute(sql_count)
         total = result.scalar_one() # scalar_one() is new in SQLAlchemy 2.0 that returns a single value.
         
-print(f"Loaded {len(df)} rows into patients. Table now has {total} rows.")
+    print(f"Loaded {len(df)} rows into patients. Table now has {total} rows.")
 
 if __name__ == "__main__":
     main()

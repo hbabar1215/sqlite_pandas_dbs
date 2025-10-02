@@ -1,4 +1,4 @@
-
+-- sql/schema.sql
 DROP TABLE IF EXISTS patients;
 
 CREATE TABLE patients (

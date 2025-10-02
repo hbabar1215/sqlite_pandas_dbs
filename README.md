@@ -11,3 +11,15 @@ The purpose of this assignment is to learn how to load patient data from a CSV f
 6. Then select **Execute SQL** and select the **Open** button to load the `sql.analysis.sql` file 
 7. Click the **Execute** button to run the queries line by line to get the results for each section (A-D).
 8. Then go to the **Browse Data** and in the **Table** dropdown bar, select `patients`, this will show you our results. 
+
+### Query A: Counts total number of patients in the table
+- There are 500 patients in the dataset. 
+
+![Query A](health-sqlite-lite\images\query_a.png)
+
+### Query B: Top primary diagnoses by count
+- There were 16 common primary icd10 codes with I10 *(Essential Hypertension)* being the most common.
+
+![Query B](health-sqlite-lite\images\query_b.png)
+
+### Query C: 

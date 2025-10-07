@@ -23,4 +23,18 @@ The purpose of this assignment is to learn how to load patient data from a CSV f
 <img src="health-sqlite-lite/images/query_b.png" alt="Query B" width="300">
 
 
-### Query C: 
+### Query C: Office-visit CPTs since Jan 1, 2025 (CPT codes starting with 992)
+- There were 94 office-visit CPTs since Jan 1, 2025 (CPT codes starting with 992).
+
+![Query C](health-sqlite-lite/images/query_c.png)
+
+
+### Query D: Age (approx) at last visit for the 5 oldest patients
+- This is the age of the 5 oldest patients at their last visit.
+
+![Query D](health-sqlite-lite/images/query_d.png)
+
+### Query E: Quick data quality check: any blank codes?
+- There are 0 blank codes. 
+
+![Query E](health-sqlite-lite/images/query_e.png)

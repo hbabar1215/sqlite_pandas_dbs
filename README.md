@@ -3,6 +3,7 @@
 The purpose of this assignment is to learn how to load patient data from a CSV file using Pandas/SQLAlchemy in SQLite to run simple queries. 
 
 ## Repo Scaffold 
+```
 health-sqlite-lite/
 ├─ data/
 │  └─ patients.csv
@@ -15,6 +16,7 @@ health-sqlite-lite/
 ├─ clinic_simple.db        
 ├─ requirements.txt
 └─ README.md
+```
 
 ## Run Steps
 1. Make sure Python, Pandas, and AQLAlchemy are installed and that the `patients.csv` is in the correct folder. 

@@ -2,7 +2,8 @@
 
 The purpose of this assignment is to learn how to load patient data from a CSV file using Pandas/SQLAlchemy in SQLite to run simple queries. 
 
-## Repo Scaffold 
+## Repo Scaffold
+Create repo in the following way: 
 ```
 health-sqlite-lite/
 ├─ data/

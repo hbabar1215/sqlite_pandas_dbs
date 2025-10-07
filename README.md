@@ -13,7 +13,7 @@ The purpose of this assignment is to learn how to load patient data from a CSV f
 8. Then go to the **Browse Data** and in the **Table** dropdown bar, select `patients`, this will show you our results. 
 
 ### Query A: Counts total number of patients in the table
-- There are 500 patients in the dataset. 
+- There are 500 rows of patients in the dataset which matches the number of patients in the CSV file. 
 
 ![Query A](health-sqlite-lite/images/query_a.png)
 
@@ -30,11 +30,11 @@ The purpose of this assignment is to learn how to load patient data from a CSV f
 
 
 ### Query D: Age (approx) at last visit for the 5 oldest patients
-- This is the age of the 5 oldest patients at their last visit.
+- This is the age of the five oldest patients at their last visit. All five patients were 85 years old. 
 
 ![Query D](health-sqlite-lite/images/query_d.png)
 
 ### Query E: Quick data quality check: any blank codes?
-- There are 0 blank codes. 
+- This query checks for missing `primary_icd10` OR missing `last_cpt`. The result was 0 blank codes which indicates good data quality. 
 
 ![Query E](health-sqlite-lite/images/query_e.png)

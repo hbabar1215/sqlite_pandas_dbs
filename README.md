@@ -4,13 +4,15 @@ The purpose of this assignment is to learn how to load patient data from a CSV f
 
 ## Run Steps
 1. Make sure Python, Pandas, and AQLAlchemy are installed and that the `patients.csv` is in the correct folder. 
-2. Run `src/create_db.py` to create `clinic_simple.db` 
-3. Run `src/import_csv.py` to load data from `data/patients.csv` into the database.
-4. Open `clinic_simple.db` by selecting **Reveal in File Explorer**
-5. Select **Open Database** on SQLite and load the `clinic_simple.db` file
-6. Then select **Execute SQL** and select the **Open** button to load the `sql.analysis.sql` file 
-7. Click the **Execute** button to run the queries line by line to get the results for each section (A-D).
-8. Lastly go to the **Browse Data** and in the **Table** dropdown bar, select `patients`, this will show you our results. 
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run `src/create_db.py` to create `clinic_simple.db` 
+4. Run `src/import_csv.py` to load data from `data/patients.csv` into the database.
+5. Open `clinic_simple.db` by selecting **Reveal in File Explorer**
+6. Select **Open Database** on SQLite and load the `clinic_simple.db` file
+7. Then select **Execute SQL** and select the **Open** button to load the `sql.analysis.sql` file 
+8. Click the **Execute** button to run the queries line by line to get the results for each section (A-D).
+9. Lastly go to the **Browse Data** and in the **Table** dropdown bar, select `patients`, this will show you our results. 
+
 
 ### Query A: Counts total number of patients in the table
 - There are 500 rows of patients in the dataset which matches the number of patients in the CSV file. 

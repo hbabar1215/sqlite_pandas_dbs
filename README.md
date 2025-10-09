@@ -36,19 +36,19 @@ health-sqlite-lite/
 
 ![Query A](health-sqlite-lite/images/query_a.png)
 
-### Query B: Top primary diagnoses by count
+### Query B: Generates top primary diagnoses by count
 - There were 16 common primary icd10 codes with I10 *(Essential Hypertension)* being the most common.
 
 <img src="health-sqlite-lite/images/query_b.png" alt="Query B" width="300">
 
 
-### Query C: Office-visit CPTs since Jan 1, 2025 (CPT codes starting with 992)
+### Query C: Generates office-visit CPTs since Jan 1, 2025 (CPT codes starting with 992)
 - There were 94 office-visit CPTs since Jan 1, 2025 (CPT codes starting with 992).
 
 ![Query C](health-sqlite-lite/images/query_c.png)
 
 
-### Query D: Age (approx) at last visit for the 5 oldest patients
+### Query D: Gives us the approximate age at last visit for the 5 oldest patients
 - This is the age of the five oldest patients at their last visit. All five patients were 85 years old. 
 
 ![Query D](health-sqlite-lite/images/query_d.png)

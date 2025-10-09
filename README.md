@@ -20,7 +20,7 @@ health-sqlite-lite/
 ```
 
 ## Run Steps
-1. Make sure Python, Pandas, and AQLAlchemy are installed and that the `patients.csv` is in the correct folder. 
+1. Make sure Python, Pandas, and SQLAlchemy are installed and that the `patients.csv` is in the correct folder. 
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run `src/create_db.py` to create `clinic_simple.db` 
 4. Run `src/import_csv.py` to load data from `data/patients.csv` into the database.

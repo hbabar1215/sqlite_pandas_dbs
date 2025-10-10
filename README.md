@@ -26,7 +26,7 @@ health-sqlite-lite/
 4. Run `src/import_csv.py` to load data from `data/patients.csv` into the database.
 5. Open `clinic_simple.db` by selecting **Reveal in File Explorer**
 6. Select **Open Database** on SQLite and load the `clinic_simple.db` file
-7. Then select **Execute SQL** and select the **Open** button to load the `sql.analysis.sql` file 
+7. Then select **Execute SQL** and select the **Open** button to load the `sql/analysis.sql` file 
 8. Click the **Execute** button to run the queries line by line to get the results for each section (A-D).
 9. Lastly go to the **Browse Data** and in the **Table** dropdown bar, select `patients`, this will show you our results. 
 

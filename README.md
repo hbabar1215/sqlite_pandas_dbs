@@ -1,6 +1,6 @@
 # Assignment 2 (Lite, Split) — Single-Table Patient Roster in SQLite
 
-The purpose of this assignment is to learn how to load patient data from a CSV file using Pandas/SQLAlchemy in SQLite to run simple queries. 
+The purpose of this assignment is to learn how to use Python to create an SQLite database from a `.sql` file then load the patient data CSV file using Pandas/SQLAlchemy in SQLite to run simple queries using DB Browser for SQLite. 
 
 ## Repo Scaffold
 Create repo in the following way: 
